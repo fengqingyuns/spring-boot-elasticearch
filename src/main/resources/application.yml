@@ -1,0 +1,8 @@
+spring:
+    data:
+        elasticsearch:
+            cluster-name: my-es-02
+            cluster-nodes: 10.10.1.60:9300,10.10.1.34:9300
+            local: false
+            repositories:
+                enable: true
